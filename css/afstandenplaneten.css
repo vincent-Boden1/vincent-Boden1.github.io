@@ -1,0 +1,40 @@
+* {
+    text-align: center;
+}
+h1 {
+	color: white;
+	margin-top: 40px;
+	font-size: 1.5em;
+	margin-bottom: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+p {
+    color: white;
+}
+#planeet1, #planeet2 {
+    padding-top: 25px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: table-caption;
+    color: white;
+    border: 5px solid white;
+    border-radius: 2em;
+}
+#afstand {
+    padding-bottom: 50px;
+}
+body {
+    background-color: black;
+}
+div {
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+table {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}

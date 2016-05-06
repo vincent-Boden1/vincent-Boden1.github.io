@@ -1,0 +1,67 @@
+body {
+    height: 150%;
+    background-color: black;
+}
+h1 {
+	color: white;
+	margin-top: 40px;
+	font-size: 1.5em;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+input[type='range'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url(../images/spaceshuttle.png);
+    background-repeat:no-repeat;
+    background-size: 300px auto;
+    background-position: 50%;
+    cursor: grab;
+}
+input[type='range']::-moz-range-track {
+    -moz-appearance: none;
+    background-color: transparent;
+}
+input[type='range']::-moz-range-thumb {
+    cursor: grab;
+    -moz-appearance: none;
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border: 0;
+    background-image: url(../images/spaceshuttle.png);
+    background-repeat:no-repeat;
+    background-size: 300px auto;
+    background-position: 50%;
+}
+input[type="range"]:focus {
+    outline: none!important;
+}
+
+* {
+    text-align: center;
+}
+h1 ,p ,output{
+    color: white;
+}
+
+#zon { display: none; }
+#mercurius { display: none; }
+#venus { display: none; }
+#aarde { display: inline; }
+#mars { display: none; }
+#jupiter { display: none; }
+#saturnus { display: none; }
+#uranus { display: none; }
+#neptunus { display: none; }
+#pluto { display: none; }

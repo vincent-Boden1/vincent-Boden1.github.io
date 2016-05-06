@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Afstanden Planeten</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/afstandenplaneten.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="berekeningen.html">Berekeningen</a></li>
+            <li><a href="simulaties.html">Simulaties</a></li>
+        </ul>
+    </nav>
+	<h1>Maak keuze tussen twee planeten om zo de afstand er tussen te berekenen wanneer ze zich op een rechte lijn zouden bevinden.</h1>
+    <label>
+        <select id="planeten1" onchange="myFunction1()">
+            <option value="Maak uw keuze">Maak uw keuze</option>
+            <option value="Zon">Zon
+            <option value="Mercurius">Mercurius
+            <option value="Venus">Venus
+            <option value="Aarde">Aarde
+            <option value="Mars">Mars
+            <option value="Jupiter">Jupiter
+            <option value="Saturnus">Saturnus
+            <option value="Uranus">Uranus
+            <option value="Neptunus">Neptunus
+            <option value="Pluto">Pluto
+        </select>
+
+        <select id="planeten2" onchange="myFunction2()">
+            <option value="Maak uw keuze">Maak uw keuze</option>
+            <option value="Zon">Zon
+            <option value="Mercurius">Mercurius
+            <option value="Venus">Venus
+            <option value="Aarde">Aarde
+            <option value="Mars">Mars
+            <option value="Jupiter">Jupiter
+            <option value="Saturnus">Saturnus
+            <option value="Uranus">Uranus
+            <option value="Neptunus">Neptunus
+            <option value="Pluto">Pluto
+        </select>
+    </label>
+
+    <div>
+        <table id="planeet1"></table>
+    </div>
+    <div>
+        <table id="planeet2"></table>
+    </div>
+    <div>
+        <p></p>
+        <p id="afstand"></p>
+    </div>
+
+    <script src="../javascript/afstandenplaneten.js" type="text/javascript"></script>
+
+    <!-- Foto's die gebruikt worden: https://www.spacepage.be/artikelen/het-zonnestelsel/de-planeten -->
+</body>
+</html>

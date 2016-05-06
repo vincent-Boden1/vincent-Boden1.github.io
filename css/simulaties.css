@@ -1,0 +1,47 @@
+body {
+    background-color: brown;
+    height: 100%;
+    overflow-x: hidden;
+}
+h1 {
+    margin-top: 50px;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+#planeten {
+    position:absolute;
+    left: -2000px;
+    height: 250px;
+}
+#mendeljev {
+    margin-left: 1%;
+    position:absolute;
+    left: 3000px;
+    height: 250px;
+}
+div {
+    width: 50%;
+	background-color: #7A3233;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 2em;
+	color: white;
+    box-shadow: 10px 10px 5px #4D2122;
+}
+article {
+    margin-top: 100px;
+    width: 49%;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+}
+
+#linkplan {
+	cursor: pointer;
+	line-height: 235px;
+}
+#linkmendel {
+	cursor: pointer;
+	line-height: 235px;
+}

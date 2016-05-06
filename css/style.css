@@ -1,0 +1,44 @@
+/** Created by vin-c on 16/04/2016. ...*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: bold 20px Arial, sans-serif;
+}
+html {
+    height: 100%;
+    background: white;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
+}
+
+nav {
+    background-color: #333;
+    margin: 0;
+    overflow: hidden;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 33.05%;
+    text-align: center;
+}
+nav > ul > li > a {
+    color: #aaa;
+    background-color:#333;
+    display: block;
+    line-height: 2em;
+    padding: 10px 0;
+    text-decoration: none;
+    border-bottom: 5px solid #333;
+}
+nav > ul > li > a:hover {
+    background-color: white;
+    border-bottom: 5px solid #333;
+    color: black;
+}

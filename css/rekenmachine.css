@@ -1,0 +1,63 @@
+#calculator {
+    width: 325px;
+    height: auto;
+    margin: 100px auto;
+    padding: 20px 20px 9px;
+    background: gray;
+    border-radius: 3px;
+}
+.top span.clear {
+    float: left;
+}
+.top .screen {
+    height: 40px;
+    width: 212px;
+    float: right;
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    font-size: 17px;
+    line-height: 40px;
+    color: white;
+    text-align: right;
+    letter-spacing: 1px;
+}
+.keys, .top {overflow: hidden;}
+.keys span, .top span.clear {
+    float: left;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    width: 66px;
+    height: 36px;
+    background: white;
+    border-radius: 3px;
+    margin: 0 7px 11px 0;
+    color: #888;
+    line-height: 36px;
+    text-align: center;
+    user-select: none;
+    transition: all 0.2s ease;
+}
+.keys span.operator {
+    background: #F0F2BD;
+    margin-right: 0;
+}
+.keys span.eval {
+    background: #C1E8C5;
+    color: #888e5f;
+}
+.top span.clear {
+    background: #ff9fa8;
+    color: white;
+}
+.keys span:hover {
+    background: green;
+    color: white;
+}
+.top span.clear:hover {
+    background: #f68991;
+    color: white;
+}
+
+/* Bronvermelding code http://thecodeplayer.com/walkthrough/javascript-css3-calculator */

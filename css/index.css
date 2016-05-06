@@ -1,0 +1,98 @@
+p {
+    margin-top: 20%;
+    text-align: center;
+    font-size: 5em;
+}
+* {
+    overflow: hidden;
+}
+
+#skip {
+    position: fixed;
+    right: 50px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#start {
+    background-color: limegreen;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#eerste {
+    background-color: limegreen;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+#tweede {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+#derde {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+#vierde {
+    background-color: darkcyan;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+#vijfde {
+    background-color: purple;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+#zesde {
+    background-color: darkgreen;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+#zevende {
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+#achtste {
+    background-color: orange;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+#laatste {
+    background-color: limegreen;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+#laatste > p {
+    margin-top: 10%;
+}
+#laatste > p:nth-child(n+2) {
+    font-size: 30px;
+    margin-top: 2.5%;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

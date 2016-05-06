@@ -1,0 +1,240 @@
+body{
+    font-size: 16px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-weight: bold;
+    line-height: 15px;
+}
+nav {
+    position: absolute;
+    font: bold 20px Arial, sans-serif;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #333;
+    margin: 0;
+    overflow: hidden;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 33.05%;
+    text-align: center;
+}
+nav > ul > li > a {
+    color: #aaa;
+    background-color:#333;
+    display: block;
+    line-height: 2em;
+    padding: 10px 0;
+    text-decoration: none;
+    border-bottom: 5px solid #333;
+}
+nav > ul > li > a:hover {
+    background-color: white;
+    border-bottom: 5px solid #333;
+    color: black;
+}
+#container{
+    width: 1400px;
+}
+article {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#kolom1{
+    float: left;
+}
+#kolom2{
+    float: left;
+    position: relative;
+    top: 75px;
+}
+.kolom3{
+    float: left;
+    position: relative;
+    top: 225px;
+}
+.kolom4{
+    float: left;
+    position: relative;
+    top: 75px;
+}
+#kolom5{
+    float: left;
+}
+.elementensoorten {
+    color: white;
+    text-align: center;
+}
+#lowerContainer{
+    float: left;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+#lowerlowercontainer {
+    position: absolute;
+    float: left;
+    margin-top: 725px;
+    left: 0;
+    width: 1400px;
+    margin-left: 10%;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+.bottom{
+    float: left;
+}
+.underbottom {
+    margin-left: 56px;
+    float: left;
+}
+.underbottom1 {
+    float: left;
+}
+
+.kaderelementwit {
+    border: 3px solid white;
+    border-radius: 0.5em;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.kaderelement {
+    border: 3px solid black;
+    border-radius: 0.5em;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.uitgebreid {
+    margin-top: -165px;
+    margin-left: 180px;
+}
+.antwoorden {
+    margin-top: -155px;
+    margin-left: 355px;
+}
+.atomenperschil{
+    text-align: center;
+    margin-top: -160px;
+    margin-left: 500px;
+}
+.atomenperschil > p{
+    line-height: 5px
+}
+
+.divuitleg {
+    display: none;
+    background-color: white;
+    position: fixed;
+    left: 415px;
+    top: 200px;
+    z-index: 10;
+    border: 5px solid white;
+    border-radius: 0.75em;
+    width: 650px;
+    height: 175px;
+}
+
+.lightgreen {  background-color: lightgreen;  }
+.orange {  background-color: orange;  }
+.yellow {  background-color: yellow;  }
+.brown {  background-color: brown;  }
+.darkgreen {  background-color: darkgreen;  color: white;  }
+.green {  background-color: #40913D;  }
+.cyan {  background-color: cyan;  }
+.blue {  color: white;  background-color: blue;  }
+.lightsalmon {  background-color: lightsalmon;  }
+.purple {  background-color: purple;  color: white;  }
+
+/*afmetingen box per element*/
+.box{
+    border: 3px solid white;
+    border-radius: 0.25em;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 1.4em;
+}
+.arrowUp {
+    color: white;
+    width: 56px;
+    height: 50px;
+    padding: 10px;
+    line-height: 50px;
+    font-size: 5em;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.tussenstuk1 {
+    color: white;
+    width: 51px;
+    height: 50px;
+    padding: 12px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 0.85em;
+}
+.tussenstuk2 {
+    font-size: 0.85em;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.klein {
+    display: none;
+    color: white;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    top: 50%;
+}
+
+@media screen and (max-width : 1425px){
+    .klein {
+        display: inline;
+    }
+    article {
+        display: none;
+    }
+}
+@media screen and (max-width : 1750px){
+    .divuitleg {
+        left: 205px;
+        top: 165px;
+    }
+    article {
+        margin-left: 0;
+    }
+    #lowerlowercontainer {
+        margin-left: 5px;
+    }
+}

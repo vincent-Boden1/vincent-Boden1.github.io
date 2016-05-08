@@ -1,7 +1,6 @@
 /* Created by vin-c on 16/04/2016. */
-function myFunction() {
-
-    var x = document.getElementById("myRange").value;
+function ToonInfoPlaneten() {
+    var locatie = document.getElementById("myRange").value;
 
     function nietgeselecteerd() {
         document.getElementById("zon").style.display = "none";
@@ -16,43 +15,44 @@ function myFunction() {
         document.getElementById("pluto").style.display = "none";
     }
 
-    if (x == 0 || x == 5) {
+    /*Controleren van de huidige locatie*/
+    if (locatie == 0 || locatie == 5) {
         nietgeselecteerd();
         document.getElementById("zon").style.display = "inline";
     }
-    if (x == 10 || x == 15 || x == 20) {
+    if (locatie == 10 || locatie == 15 || locatie == 20) {
         nietgeselecteerd();
         document.getElementById("mercurius").style.display = "inline";
     }
-    if (x == 25 || x == 30 || x == 35) {
+    if (locatie == 25 || locatie == 30 || locatie == 35) {
         nietgeselecteerd();
         document.getElementById("venus").style.display = "inline";
     }
-    if (x == 40 || x == 45 || x == 50) {
+    if (locatie == 40 || locatie == 45 || locatie == 50) {
         nietgeselecteerd();
         document.getElementById("aarde").style.display = "inline";
     }
-    if (x == 55 || x == 60 || x == 65) {
+    if (locatie == 55 || locatie == 60 || locatie == 65) {
         nietgeselecteerd();
         document.getElementById("mars").style.display = "inline";
     }
-    if (x == 70 || x == 75 || x == 80) {
+    if (locatie == 70 || locatie == 75 || locatie == 80) {
         nietgeselecteerd();
         document.getElementById("jupiter").style.display = "inline";
     }
-    if (x == 85 || x == 90 || x == 95) {
+    if (locatie == 85 || locatie == 90 || locatie == 95) {
         nietgeselecteerd();
         document.getElementById("saturnus").style.display = "inline";
     }
-    if (x == 100 || x == 105 || x == 110) {
+    if (locatie == 100 || locatie == 105 || locatie == 110) {
         nietgeselecteerd();
         document.getElementById("uranus").style.display = "inline";
     }
-    if (x == 115 || x == 120 || x == 125) {
+    if (locatie == 115 || locatie == 120 || locatie == 125) {
         nietgeselecteerd();
         document.getElementById("neptunus").style.display = "inline";
     }
-    if (x == 130 || x == 135) {
+    if (locatie == 130 || locatie == 135) {
         nietgeselecteerd();
         document.getElementById("pluto").style.display = "inline";
     }

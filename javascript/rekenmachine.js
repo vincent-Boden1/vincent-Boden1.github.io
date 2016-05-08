@@ -1,5 +1,4 @@
 /* Created by vin-c on 16/04/2016. */
-
 var keys = document.querySelectorAll('#calculator span');
 var operators = ['+', '-', 'x', '÷'];
 var decimalAdded = false;
@@ -14,7 +13,6 @@ for(var i = 0; i < keys.length; i++) {
             input.innerHTML = '';
             decimalAdded = false;
         }
-
         else if(btnVal == '=') {
             var equation = inputVal;
 
@@ -28,7 +26,6 @@ for(var i = 0; i < keys.length; i++) {
 
             decimalAdded = false;
         }
-
         else if(operators.indexOf(btnVal) > -1) {
             var lastChar = inputVal[inputVal.length - 1];
 

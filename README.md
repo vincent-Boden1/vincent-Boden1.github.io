@@ -18,4 +18,8 @@ Bij de 'simulaties' kunt u enkele simulaties starten zoals de reis door de ruimt
 
 Ik maak gebruik van HTML, CSS, Javascript en de Javascript library Jquery.
 
-## Best code practicing ...
+## Best Coding practices
+
+- Het gebruiken van commentaar (niet te veel / niet te weinig)
+- Het kiezen van goede namen voor variabele
+- Functie namen goed kiezen zodat je meteen weet wat de functie doet

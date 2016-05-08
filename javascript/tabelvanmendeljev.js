@@ -1,5 +1,6 @@
 /* Created by vin-c on 19/04/2016. */
 $(document).ready(function(){
+    /*Fade In elk element apart*/
     $('div').hide();
     $('section').hide();
     $('div').each(function(i) {
@@ -80,6 +81,7 @@ $(document).ready(function(){
         standaardkleuren()
     });
 
+    /*Tonen van elk element bij een hover over die bepaald Box*/
     function uitlegElementen(elem) {
         $(elem).hover(function() {
             $(elem + '-uitleg').fadeIn('fast');
@@ -87,7 +89,6 @@ $(document).ready(function(){
             $(elem + '-uitleg').fadeOut('fast');
         });
     }
-
     uitlegElementen('#H');
     uitlegElementen('#Li');
     uitlegElementen('#Na');

@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    /*Verbergen van slides*/
 	$("#eerste").hide();
     $("#tweede").hide();
     $("#derde").hide();
@@ -11,6 +12,7 @@ $(document).ready(function(){
 
     /*Bron gebruik cookies: http://stackoverflow.com/questions/28533409/check-if-user-has-alread-visited-site-in-browser-session */
 
+    /*Cookie aanmaken*/
     setCookie = function (c_name,value,exdays) {
         var exdate=new Date();
         exdate.setDate(exdate.getDate() + exdays);
@@ -23,6 +25,7 @@ $(document).ready(function(){
         document.cookie=c_name + "=" + c_value;
     };
 
+    /*Kijken of er een cookie is*/
     getCookie = function(cname) {
         var name = cname + "=";
         var ca = document.cookie.split(';');
@@ -34,14 +37,17 @@ $(document).ready(function(){
         return "";
     };
 
+    /*verwijder cookie*/
     deleteCookie = function(name) {
         document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     };
 
+    /*Herstarten van de introductie*/
     $('#herstart').click(function () {
         deleteCookie('visited');
     });
 
+    /*Controleren of er een cookie aanwezig is bij het laden van de pagina*/
     if (getCookie('visited')) {
         setTimeout(function(){
             $("#laatste").fadeIn(2000);
@@ -102,6 +108,7 @@ $(document).ready(function(){
         }, 54000);
     }
 
+    /*Het overslaan van de introductie*/
     $("#skip").click(function() {
         $("#eerste").css("display", "none");
         $("#tweede").css("display", "none");
